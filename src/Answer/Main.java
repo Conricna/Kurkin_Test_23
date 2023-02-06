@@ -1,14 +1,16 @@
 package Answer;
 
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
 
+        Task_2 t2 = new Task_2();
+        // Введите число, а оно округлится с точностью до 5
+        System.out.println( "Ваше число " + (t2.task_2(11.7F)));
+
         Task_4 t4 = new Task_4();
-        System.out.println( "Является ли ваше число простым? " + (t4.task_4(11)));
+        //System.out.println( "Является ли ваше число простым? " + (t4.task_4(11)));
 
         Task_5 t5 = new Task_5();
         //System.out.print( (Arrays.toString(t5.task_5())));
