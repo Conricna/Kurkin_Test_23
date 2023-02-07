@@ -15,7 +15,7 @@ public class Task_5 {
         int[] arrnum2 = new int[]{56, 17, 17, 1, 23, 34, 23, 1, 8, 1, 7};
         int[] arrnum3 = new int[arrnum1.length];
 
-
+// сравниваем значение первого массива со вторым, если да то записываем в третий массив
         for (int i = 0; i < arrnum1.length; i++) {
             for (int j = 0; j < arrnum2.length; j++) {
                 if (arrnum1[i] == arrnum2[j]) {
@@ -24,10 +24,10 @@ public class Task_5 {
             }
         }
 
-        Arrays.sort(arrnum3);
+        Arrays.sort(arrnum3);  // сортировка массива
 
-        int[] distinct = removeDuplicates(arrnum3);
-        System.out.println(Arrays.toString(distinct));
+        int[] distinct = removeDuplicates(arrnum3);  // Оставляем только уникальные значения
+
 
 /////////////////////////////
 
@@ -57,7 +57,7 @@ public class Task_5 {
                 .toArray();
 
 // выводим массив повторяющихся элементов
-        System.out.println( Arrays.toString(arr3)); // [1, 2, 3, 5, 8]
+        //System.out.println( Arrays.toString(arr3)); // [1, 2, 3, 5, 8]
 
         return distinct;
     }

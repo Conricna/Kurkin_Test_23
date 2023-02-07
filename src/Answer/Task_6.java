@@ -10,8 +10,9 @@ public class Task_6 {
         //System.out.print("Введите число для построения таблицы умножения: ");
         //int num = sc.nextInt();
         //int num = 5;
-        int[][] mas = new int[num + 1][num + 1];
 
+        int[][] mas = new int[num + 1][num + 1];
+        // в двойном цикле перемножаем элемент строки на столбец
         for (int i = 1; i < mas.length; i++) {
             for (int j = 1; j < mas[i].length; j++) {
                 int b = j * i;

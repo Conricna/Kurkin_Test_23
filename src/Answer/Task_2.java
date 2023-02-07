@@ -6,8 +6,8 @@ public class Task_2 {
         // Задача была выполнена за 5 минут
        // float num =41.7F;
 
-        int res = Math.round(num);
-        int round = res %5;
+        int res = Math.round(num); // округляем введённое значение по обычному правилу в сторону ближайшего
+        int round = res %5;    //   округление до ближайшего числа кратного 5
         if (round ==1) res -= 1;
         if (round ==2) res -= 2;
         if (round ==3) res += 2;
